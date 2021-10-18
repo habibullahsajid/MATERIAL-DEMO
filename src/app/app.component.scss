@@ -1,0 +1,37 @@
+.center {
+  margin: 10rem;
+}
+
+mat-sidenav-container {
+  height: 100%;
+}
+
+mat-toolbar{
+  background-color: #9c27b0;
+}
+
+mat-grid-tile {
+  background-color: #ab47bc;
+}
+
+mat-sidenav,
+mat-sidenav-content {
+  padding: 16px;
+}
+
+mat-sidenav {
+  background-color: #ab47bc;
+  width: 200px;
+}
+
+div {
+  margin: 3rem;
+}
+
+.navbar {
+  justify-content: space-between;
+}
+
+.navbar>div>span {
+  padding-right: 1rem;
+}

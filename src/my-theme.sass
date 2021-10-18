@@ -1,0 +1,13 @@
+@use '~@angular/material' as mat
+@include mat.core()
+
+$my-primary: mat.define-palette(mat.$teal-palette,500)
+$my-accent: mat.define-palette(mat.$deep-purple-palette,500)
+$my-warn: mat.define-palette(mat.$red-palette,500)
+
+$my-theme:mat.define-light-theme( $my-primary,$my-accent,$my-warn)
+
+@include mat.core-theme($my-theme)
+@include mat.button-theme($my-theme)
+@include mat.toolbar-color($my-theme)
+
